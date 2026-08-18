@@ -1,4 +1,4 @@
-# Initial Dependencies
+# Initial Dependencies
 brew "mas"
 
 # Fonts
@@ -38,11 +38,13 @@ brew "fx"
 brew "glow"
 brew "jqp"
 brew "pastel"
+brew "cmake"
 
 # CLIs
 brew "ffmpeg"
 brew "mpv"
 brew "vhs"
+brew "yt-dlp"
 
 # TUIs
 brew "bookokrat"
@@ -54,6 +56,7 @@ brew "adembc/tap/lazyssh"
 brew "superfile"
 tap "gromgit/brewtils", trusted: true
 brew "gromgit/brewtils/taproom"
+brew "posting"
 
 # Customization
 brew "starship"
@@ -64,6 +67,9 @@ tap "anomalyco/tap", trusted: true
 brew "anomalyco/tap/opencode"
 
 # Casks
+cask "alt-tab"
+cask "comfy"
+cask "discord"
 cask "docker-desktop"
 cask "ghostty"
 cask "google-chrome"
@@ -71,15 +77,19 @@ cask "hermes-desktop"
 cask "jetbrains-toolbox"
 cask "lm-studio"
 cask "microsoft-teams"
+cask "rectangle"
 cask "rustdesk"
+cask "sourcegit"
 cask "sublime-text"
 cask "tailscale-app"
 cask "vlc"
 cask "vscodium"
+cask "yaak"
 cask "zerotier-one"
 
 # App Store
 mas "Amphetamine", id: 937984704
 mas "RunCatNeo", id: 6757801838
+mas "ScrobblesForLast.fm", id: 1344679160
+mas "TheUnarchiver", id: 425424353
 mas "Xcode", id: 497799835
-
