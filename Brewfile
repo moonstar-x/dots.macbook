@@ -57,6 +57,8 @@ brew "superfile"
 tap "gromgit/brewtils", trusted: true
 brew "gromgit/brewtils/taproom"
 brew "posting"
+tap "anthonymaley/musictui", trusted: true
+brew "anthonymaley/musictui/musictui"
 
 # Customization
 brew "starship"
@@ -64,31 +66,42 @@ brew "starship"
 # Agents
 tap "anomalyco/tap", trusted: true
 brew "anomalyco/tap/opencode"
+cask "chatgpt"
+cask "codex"
+cask "claude"
+cask "claude-code"
 
-# Casks
+# General Casks
 cask "alt-tab"
 cask "comfy"
 cask "discord"
 cask "docker-desktop"
 cask "ghostty"
 cask "google-chrome"
-cask "hermes-desktop"
 cask "jetbrains-toolbox"
 cask "lm-studio"
 cask "microsoft-teams"
+cask "obs"
+cask "openusage"
 cask "rectangle"
 cask "rustdesk"
 cask "sourcegit"
 cask "sublime-text"
 cask "tailscale-app"
+cask "utm"
 cask "vlc"
 cask "vscodium"
 cask "yaak"
 cask "zerotier-one"
+cask "zoom"
 
 # App Store
 mas "Amphetamine", id: 937984704
+mas "Keynote", id: 361285480
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
 mas "RunCatNeo", id: 6757801838
 mas "ScrobblesForLast.fm", id: 1344679160
 mas "TheUnarchiver", id: 425424353
+mas "TogglTrack", id: 1291898086
 mas "Xcode", id: 497799835
