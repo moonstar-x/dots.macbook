@@ -13,6 +13,7 @@
         "**/.forgejo/workflows/*.yml",
         "**/.forgejo/workflows/*.yaml"
     ],
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": false
 }
 
